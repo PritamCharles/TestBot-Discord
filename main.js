@@ -22,13 +22,13 @@ bot.on('message', function (rules) {
 bot.on('message', function (message) {
     if (message.content.startsWith(prefix + 'discord')) {
         message.channel.send(`Voici le lien du serveur Discord !!\n` +
-        `https://discord.gg/NwYFJag9WM`)
+        `https://discord.gg/##########`)
     }
 })
 
 bot.on('message', function (message) {
     if (message.member.hasPermission('MANAGE_MESSAGES')) {
-        if (message.author.id === "432610292342587392" && message.channel.id !== "901521796816310372") {
+        if (message.author.id === "##################" && message.channel.id !== "##################") {
             message.delete();
         }
     }
